@@ -25,7 +25,7 @@ setFormData( {idUser: comment.author} )
 
 getUser(userData)
 
-}, [idUser]);
+}, [idUser,comment.author]);
 
 const getUser = async ( userData) => {
   const config = {
