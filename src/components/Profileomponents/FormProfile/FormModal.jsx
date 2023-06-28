@@ -10,7 +10,7 @@ import { createProfile } from '../../../features/auth/authSlice'
 export default function FormModal({closeModal, modalIsOpen}) {
   const dispatch = useDispatch()
  console.log(modalIsOpen);
-  const { user, isLoading,} = useSelector((state) => state.auth)
+  const { user} = useSelector((state) => state.auth)
 
   const [fileUpload, setFileUpload] = useState(false)
   const [text, setText] = useState('')
