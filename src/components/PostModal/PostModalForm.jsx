@@ -1,6 +1,4 @@
-import React, {useState, useEffect} from 'react'
-//import Modal from 'react-modal';
-
+import React from 'react'
 import Modalhoc from '../../moreUseComponet/Modal/Modalhoc';
 import PostForm from '../PostForm/PostForm';
 
