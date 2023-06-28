@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ({ setFileUpload, onSubmit,
+export default function FormProfile({ setFileUpload, onSubmit,
    text ,setText,   name , setName }) {
 
     
