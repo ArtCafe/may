@@ -1,7 +1,7 @@
 import React from 'react';
-import PostForm from '../components/PostForm/PostForm';
+
 import SecondBar from '../components/SecondBar';
-import Blog from '../components/Blog/Blog';
+
 
 
 export default function Dashboard() {
