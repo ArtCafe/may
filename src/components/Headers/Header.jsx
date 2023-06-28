@@ -10,7 +10,7 @@ import { logout, reset } from '../../features/auth/authSlice'
 function Header() {
   const [switchLink,  setSwitLink] = useState(false);
   const [switchSeting,  setSwitchSeting] = useState(false);
-  const [switchSetingPost,  setSwitchSetingPost] = useState(false);
+
 
   const navigate = useNavigate()
   const dispatch = useDispatch()
