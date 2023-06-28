@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import { useLocation,  } from "react-router-dom";
-import Modal from '../moreUseComponet/Modal/Modalhoc'
+
 import PostForm from '../components/PostForm/PostForm';
 
 import SecondBar from '../components/SecondBar';
