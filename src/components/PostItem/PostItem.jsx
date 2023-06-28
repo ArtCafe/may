@@ -33,7 +33,7 @@ const { user} = useSelector( (state) => state.auth
   return (
     <>
   
-    <div >{flag ? <button   onClick={deletepost}> x </button> : <h2></h2>}</div>
+    <div >{flag ? <button   onClick={deletepost}> x </button> : <h2>{}</h2>}</div>
      <Link to ={`/post/${post._id}`}>
 
     <div  >
