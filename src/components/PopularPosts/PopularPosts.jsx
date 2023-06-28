@@ -22,7 +22,7 @@ export default function PopularPosts({posts}) {
             {posts?.slice(0,3).map((post) => (
 
 <li className="w3-padding-16"    key={post?._id} >
-<img   src={post?.imgUrl} alt="Image" className="w3-left w3-margin-right" style={{width:"50px"}}/>
+<img   src={post?.imgUrl} alt="age" className="w3-left w3-margin-right" style={{width:"50px"}}/>
 <span className="w3-large">{post?.title}</span><br/>
 <span>{post?.text?.slice(0,12)}</span>
 </li>
