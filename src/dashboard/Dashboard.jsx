@@ -10,10 +10,6 @@ import Blog from '../components/Blog/Blog';
 export default function Dashboard() {
   const location = useLocation();
 
-  const [modalIsOpen, setIsOpen] = useState();
-  
-  const [flag, setFlag] = useState(false)
-
 
   
 
@@ -27,15 +23,6 @@ export default function Dashboard() {
   },[location.pathname])
 
 
-
-  function openModal() {
-    setIsOpen(true);
-  }
-
-  function closeModal() {
-    setIsOpen(false);
-  }
- 
   return (
     <>
     <div  className="w3-col l8 s12" >
