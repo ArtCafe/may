@@ -40,7 +40,7 @@ const { user} = useSelector( (state) => state.auth
 
                    <img
                         src={post?.imgUrl}
-                        alt="post image"
+                        alt="post age"
                         style={{width:"100%"}}
                       //  width="888px"
                     />
