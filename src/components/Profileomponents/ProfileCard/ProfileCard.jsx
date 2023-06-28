@@ -9,7 +9,7 @@ export default function ProfileCard({user}) {
 
 const name ="user"
 const text="text"
-  const [imagee, setImagee] = useState(image)
+  const [imagee] = useState(image)
 
   return (
     <div >{!user ? <Link to='/'>
