@@ -4,7 +4,7 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 import Spinner from '../../components/Spinner'
-import { getPosts, reset } from '../../features/posts/postSlice'
+import { getPosts } from '../../features/posts/postSlice'
 
 
 export default function Blog({flag}) {
