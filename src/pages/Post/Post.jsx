@@ -28,7 +28,7 @@ const getProduct = async () => {
      getProduct()
 
      
-  }, [params?.id, user]);
+  }, [params?.id, user, getProduct]);
 
   useEffect(() => {
     setFlag(false)
